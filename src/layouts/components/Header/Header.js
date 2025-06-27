@@ -21,6 +21,7 @@ import images from '~/assets/images';
 import Menu from '~/components/Popper/Menu';
 import { InboxIcon, MessageIcon, UploadIcon } from '~/components/Icons';
 import Image from '~/components/Image';
+import avatar from '~/assets/images/admin.png'
 import Search from '../Search';
 
 const cx = classNames.bind(styles);
@@ -134,7 +135,7 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
+                                src={avatar}
                                 alt="Nguyen Van A"
                             />
                         ) : (

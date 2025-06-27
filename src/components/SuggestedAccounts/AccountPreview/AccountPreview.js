@@ -22,14 +22,14 @@ function AccountPreview() {
             </div>
             <div className={cx('body')}>
                 <p className={cx('nickname')}>
-                    <strong>quocnguyenphu</strong>
+                    <strong>PhucNguyenTrong</strong>
                     <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />
                 </p>
-                <p className={cx('name')}>Quốc Nguyễn Phú</p>
+                <p className={cx('name')}>Nguyen Trong Phuc</p>
                 <p className={cx('analytics')}>
-                    <strong className={cx('value')}>8.2M </strong>
+                    <strong className={cx('value')}>3M </strong>
                     <span className={cx('label')}>Followers</span>
-                    <strong className={cx('value')}>8.2M </strong>
+                    <strong className={cx('value')}>3M </strong>
                     <span className={cx('label')}>Likes</span>
                 </p>
             </div>
